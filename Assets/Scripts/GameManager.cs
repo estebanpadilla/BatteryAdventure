@@ -211,4 +211,10 @@ public class GameManager : MonoBehaviour
         var theBarRectTransform = EnergyBar.transform as RectTransform;
         theBarRectTransform.sizeDelta = new Vector2(value, theBarRectTransform.sizeDelta.y);
     }
+
+    public void ActivateCheckPoint(Vector3 position)
+    {
+        Debug.Log("ActivateCheckPoint()");
+        _spawnLocation = position;
+    }
 }

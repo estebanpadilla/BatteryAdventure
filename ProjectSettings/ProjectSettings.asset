@@ -467,8 +467,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: 4ba8a30a-a421-4029-b09e-031d576c7c44
+  projectName: SuperSpartyBros
+  organizationId: esteban-padilla
   cloudEnabled: 0

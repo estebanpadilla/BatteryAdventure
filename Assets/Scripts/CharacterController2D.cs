@@ -33,6 +33,7 @@ public class CharacterController2D : MonoBehaviour
     public AudioClip jumpSFX;
     public AudioClip freezeSFX;
     public AudioClip victorySFX;
+    public AudioClip checkPointSFX;
 
     // private variables below
 
@@ -560,5 +561,10 @@ public class CharacterController2D : MonoBehaviour
     {
         _canDoubleJump = true;
         _canTrippleJump = true;
+    }
+
+    public void PlayCheckPoint()
+    {
+        PlaySound(checkPointSFX);
     }
 }
